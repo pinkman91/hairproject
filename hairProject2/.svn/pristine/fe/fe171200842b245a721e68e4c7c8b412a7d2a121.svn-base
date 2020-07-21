@@ -1,0 +1,15 @@
+1. bootStrap collrapse 분할 아코디언 메뉴 활성화 하는방법
+
+<li class="nav-item">																▼해당 data-target 벨류값을 사용자가 원하는 이름을 지정한다
+				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseTwo"> 
+					<span>매장현황표</span>
+				</a> 
+			<!-- 서브 툴바 -->
+						▼ data-target 벨류값과 동일한 값을 id부분에 기입	
+				<div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+					<div class="bg-white py-2 collapse-inner rounded">
+						<a class="collapse-item" href="#">대기 현황표</a>
+						<a class="collapse-item" href="#">예약 현황표</a>
+					</div>
+				</div>
+			</li>
